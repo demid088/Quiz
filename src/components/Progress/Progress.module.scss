@@ -1,0 +1,14 @@
+.wrapper {
+  height: 10px;
+  border-radius: 30px;
+  background-color: rgb(232, 232, 232);
+
+  .progress {
+    height: 100%;
+    border-radius: 30px;
+    width: 80%;
+    background: rgb(18, 231, 48);
+    background: linear-gradient(90deg, var(--color-4) 0%, var(--color-2) 100%);
+    transition: all 0.3s ease-in-out;
+  }
+}

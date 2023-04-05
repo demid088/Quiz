@@ -1,0 +1,39 @@
+.btn {
+  position: relative;
+  background-color: var(--color-1);
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: var(--color-3);
+  padding: 13px 20px;
+  transition: all 0.3s;
+}
+
+
+/*************************** BUTTON MODIFY */
+
+.btn_outline {
+  background-color: transparent;
+  color: var(--color-4);
+  border: 2px solid var(--color-2);
+}
+
+.btn_outline:hover {
+  background-color: var(--color-2);
+}
+
+
+/*************************** _MODIFY */
+
+._block {
+  display: block !important;
+}
+
+._flex {
+  display: flex !important;
+}
+
+._deactive {
+  opacity: 0.3 !important;
+  cursor: default !important;
+}
